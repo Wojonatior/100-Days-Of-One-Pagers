@@ -1,0 +1,72 @@
+* {
+	font-family: "helvetica";
+	box-sizing: border-box;	
+}
+html, body{ 
+	height: 100%;
+}
+body {
+	background-color: #E7E7DE;
+  	margin: 20px 0;
+  	/*padding: 10px;*/
+  	height: 100%;
+  	padding-bottom: 60px;
+}
+
+.center {
+	display: flex;
+ 	height: 100%; /* Or whatever */
+}
+
+#mainText{
+	font-family: "helvetica";
+	color: #00587A;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+	margin: auto;
+}
+
+.catPixContainer {
+	width: 100% ;
+	display: flex;
+	height: auto;  
+ 	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.container {
+  	display: flex;
+  	flex-direction: column;
+}
+
+.catPix{
+	display: inline-block;
+	max-width: 400px;
+	min-width: 300px;
+	max-height: 400px;
+	height: auto;
+	padding: 15px;
+}
+
+#wrapper {
+	position:relative;
+	min-height:100%;
+	height: auto;	
+	margin: 0 auto -4em;
+}
+#header{
+
+}
+
+#content {
+	padding-bottom:4em; /* Height of the footer element */
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 4em;   /* Height of the footer */
+	background: #6cf;
+}
