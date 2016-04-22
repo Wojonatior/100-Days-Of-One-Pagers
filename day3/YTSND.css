@@ -1,0 +1,48 @@
+body {
+	background-image: url("suh.jpg")
+}
+
+#superShadow {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+	height: 100%;
+	width: 100%;
+
+	text-shadow: -100px -45px 10px #151515;
+	font-size: 80px;
+	font-family: "helvetica";
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#footerContent{
+	position: absolute;
+		top: 0;
+		left: 0;
+	font-family: "helvetica";
+	display: inline-block;
+	font-size: 11px;
+	width: auto;
+	height: auto;
+	background: #7f8c8d;
+	padding-right: 15px;
+}
+
+#footerList{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
