@@ -1,0 +1,110 @@
+/*
+red 				: FF0803
+dark blue 			: 092931
+lighter dark blue 	: 2E5D64
+*/
+
+
+* {
+	font-family: "helvetica";
+	box-sizing: border-box;	
+}
+html { 
+	position: relative;
+	height: 100%;
+}
+
+body {	
+	background-color: #000000;
+  	margin: 0 0 60px;
+  	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#mainText {
+	font-family: "helvetica";
+	color: #FF0803;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+	margin: auto;
+}
+
+#header{
+	display:flex;
+	justify-content: center;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+	height: 100%;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;  /* Height of the footer */
+	width: 100%;
+	background: #092931;
+}
+
+#footerList{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#footerContent{
+	font-family: "helvetica";
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	font-size: 11px;
+	background: #FF0803
+}
+
+img, #kanye{
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+	position: relative;
+	z-index: -1
+	top: 0%; 
+    left: 0%;
+}
+
+.button {
+    background-color: #FF0803; 
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+
+    border: none;
+    padding: 15px 32px;
+
+    display: block;
+    width: auto;
+
+   
+}
+
+#centerButton{
+	display:flex;
+	flex direction: column;
+	justify-content: center;
+	align-content: center;
+
+	position: relative;
+    z-index: 10;
+}
