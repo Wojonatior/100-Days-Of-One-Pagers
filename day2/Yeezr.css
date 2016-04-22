@@ -30,13 +30,15 @@ a {
 	color: #FF0803;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 70px;
 	margin: auto;
 }
 
 #header{
 	display:flex;
 	justify-content: center;
+	height:auto;
+	background-color: #000000;
 }
 
 #content {
@@ -67,10 +69,12 @@ a {
 #footerContent{
 	font-family: "helvetica";
 	display: inline-block;
-	width: 20%;
-	height: 100%;
 	font-size: 11px;
-	background: #FF0803
+	width: auto;
+	height: 100%;
+	background: #FF0803;
+
+	padding-right: 15px;
 }
 
 img, #kanye{
@@ -78,7 +82,7 @@ img, #kanye{
 	height: auto;
 	border-radius: 0;
 	position: relative;
-	z-index: -1
+	z-index: -1;
 	top: 0%; 
     left: 0%;
 }
@@ -107,4 +111,13 @@ img, #kanye{
 
 	position: relative;
     z-index: 10;
+}
+
+#kanyeQuote {
+	position: relative;
+    z-index: 10;
+    font-size: 55px;
+    font-weight: bold;
+	color: #FF0803;
+    text-align: center;
 }
