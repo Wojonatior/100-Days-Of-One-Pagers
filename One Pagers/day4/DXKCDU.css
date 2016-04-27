@@ -1,0 +1,27 @@
+#textContainer, li {
+	font-family: "helvetica";
+	text-align: center;	
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#footerlist{
+	list-style-type: none;
+}
+
+#footerContent{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 8px;
+}
+
+#textContainer {
+	font-size: 100px;
+}
